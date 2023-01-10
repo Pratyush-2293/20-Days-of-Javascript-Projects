@@ -1,5 +1,0 @@
-♦ Description: Take user input and store to a variable. Print "Hello, World." on single line then print the user input on the second line.
-♦ Test Case 0: Welcome to 30 Days of Code!
-♦ Expected Output:
-Hello, World.
-Welcome to 30 Days of Code!
