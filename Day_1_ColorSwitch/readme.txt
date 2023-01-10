@@ -5,4 +5,4 @@ Color Switch Project
 - All the files of the project are included in this folder.
 
 You can check it out by clicking on the link below:
-https://magical-fenglisu-04d608.netlify.app/
+https://pratyush2293-colorswitch.netlify.app/
