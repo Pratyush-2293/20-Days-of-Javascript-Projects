@@ -1,2 +1,2 @@
-# Hacker-Rank-30-Days-of-JavaScript
-This repository contains my solution codes to the Hacker Rank 30 Days of Code challenge written in JavaScript.
+# 20-Days-of-JavaScript-Projects
+This repository contains the projects I build for my 20 Days of Javascript challenge.
