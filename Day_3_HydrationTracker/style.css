@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("images/water2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.navbar{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration-thickness: 5px;
+    align-items: center;
+    color: white;
+    background-color: #5A5D46;
+    font-family: 'Baloo Bhai 2', cursive;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    height: 40%;
+    width: 60%;
+    background-color: rgba(203, 207, 160, 0.95);
+    margin: auto;
+    padding: 25px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.counter h2{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 5px;
+}
+
+#count{
+    font-size: 9rem;
+}
+
+#add{
+    background-color: #4E860C;
+    padding: 10px;
+    margin-right: 25px;
+}
+
+#reset{
+    background-color: #FE5F55;
+    padding: 10px;
+}
