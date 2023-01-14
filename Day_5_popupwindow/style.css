@@ -1,0 +1,76 @@
+*,*::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btncontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    transform: translate(-50%,-50%) scale(0);
+    width: 300px;
+    max-width: 60%;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #D5C7BC;
+    transition: 300ms ease-in-out;
+}
+
+.container-active{
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 10px 15px;
+    padding-top: 15px;
+}
+
+.header h3{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.close{
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    background: none;
+}
+
+.content{
+    padding: 15px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+
+}
+
+.bgcolor{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #785964;
+    z-index: -1;
+}
+
+#openbtn{
+    background-color: #2C6E49;
+    padding: 5px 30px;
+    font-size: 2rem;
+}
