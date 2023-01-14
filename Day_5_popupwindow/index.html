@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <title>Pop Up Window</title>
+</head>
+<body>
+    <div class="btncontainer">
+        <button onclick="popUp()" type="button" class="btn btn-primary" id="openbtn">Click Me</button>
+    </div>
+    <div class="container" id="contid">
+        <div class="header">
+            <h3>Sample Popup</h3>
+            <button onclick="popClose()" type="button" class="close">&times;</button>
+        </div>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ducimus non iusto atque minus itaque vel corrupti adipisci beatae odit suscipit, impedit maiores. Voluptates inventore esse sint hic nisi dolorem saepe tempore pariatur ad. Quidem ex commodi possimus numquam voluptatem, vitae officia recusandae laboriosam consequuntur. Excepturi nobis voluptates obcaecati quisquam neque voluptatibus perspiciatis repellendus voluptas aperiam. Fugiat ea ex repellendus pariatur modi velit suscipit eveniet omnis repellat, fugit quidem dolore.</p>
+        </div>
+    </div>
+
+    <div class="bgcolor"></div>
+
+    <script src="jscript.js"></script>
+</body>
+</html>
