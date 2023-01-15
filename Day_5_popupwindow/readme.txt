@@ -11,3 +11,6 @@ Test Cases:
 Expected Output:
 - Case 0: The pop up window is now visible.
 - Case 1: The pop up window closes.
+
+You can try this project by clicking on this link:
+https://pratyush2293-popupwindow.netlify.app/
