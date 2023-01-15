@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input id="calcInput" type="text" placeholder="0">
+            <br>
+            <button class="btn" onclick="numPress(1)">1</button>
+            <button class="btn" onclick="numPress(2)">2</button>
+            <button class="btn" onclick="numPress(3)">3</button>
+            <button class="btn" onclick="numPress(4)">4</button>
+            <br>
+            <button class="btn" onclick="numPress(5)">5</button>
+            <button class="btn" onclick="numPress(6)">6</button>
+            <button class="btn" onclick="numPress(7)">7</button>
+            <button class="btn" onclick="numPress(8)">8</button>
+            <br>
+            <button class="btn" onclick="numPress(9)">9</button>
+            <button class="btn" onclick="numPress(0)">0</button>
+            <button class="btn" onclick="numPress('.')">.</button>
+            <button style="background-color: #6E0D25;" class="btn , funcbtn" onclick="clearAll()">C</button>
+            <br>
+            <button class="btn , funcbtn" onclick="numPress('+')">+</button>
+            <button class="btn , funcbtn" onclick="numPress('-')">-</button>
+            <button class="btn , funcbtn" onclick="numPress('*')">x</button>
+            <button class="btn , funcbtn" onclick="numPress('/')">/</button>
+            <br>
+            <button class="equalbtn" onclick="equal()">=</button>
+        </div>
+    </div>
+
+    <script src="jscript.js"></script>
+</body>
+</html>
