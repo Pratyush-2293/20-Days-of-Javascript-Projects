@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+#game{
+    width: 800px;
+    height: 600px;
+    border-bottom: 4px solid black;
+}
+
+#container{
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#player{
+    position: relative;
+    width: 50px;
+    height: 80px;
+    top: 520px;
+}
+
+#enemy{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 460px;
+    left: 750px;
+    animation: slide 1200ms linear infinite;
+}
+
+#mario{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+#goomba{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+@keyframes slide {
+    0%{
+        left: 900px;
+    }
+
+    100%{
+        left: -150px;
+    }
+}
+
+.jumpanim{
+    animation: mariojump 800ms;
+}
+
+@keyframes mariojump {
+    0%{
+        top: 520px;
+    }
+    30%{
+        top: 400px;
+    }
+    100%{
+        top: 520px;
+    }
+}
+
+#score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 70px
+}
+
+#instructions{
+    display: flex;
+    position: absolute;
+}
