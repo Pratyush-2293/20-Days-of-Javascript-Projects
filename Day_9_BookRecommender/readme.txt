@@ -8,7 +8,7 @@ Test Case:
 - The 'new book' button is pressed a few times.
 
 Expeted Output:
-- The app diplays the book data everytime the button is pressed.
+- The app displays the book data everytime the button is pressed.
 
 You can try the project yourself by clicking on this link:
 https://pratyush2293-book-recommender.netlify.app/
