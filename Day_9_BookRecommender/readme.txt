@@ -9,3 +9,6 @@ Test Case:
 
 Expeted Output:
 - The app diplays the book data everytime the button is pressed.
+
+You can try the project yourself by clicking on this link:
+https://pratyush2293-book-recommender.netlify.app/
