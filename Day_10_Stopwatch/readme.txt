@@ -17,7 +17,7 @@ Expected Output:
 - Case 1: The stopwatch pauses.
 - Case 2: The stopwatch resumes counting time.
 - Case 3: The stopwatch pauses again.
-- Case 3: The stopwatch resets back to 0.
+- Case 4: The stopwatch resets back to 0.
 
 You can try out the project yourself by clicking on the link below:
 https://pratyush2293-stopwatch.netlify.app/
