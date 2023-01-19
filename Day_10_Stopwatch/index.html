@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stop Watch</title>
+</head>
+<body>
+    <div class="container">
+        <div class="watchbody">
+            <h2><span id="minutes">00</span>:<span id="seconds">00</span>:<span id="tens">00</span></h2>
+            <div class="buttons">
+            <button onclick="startClock()" class="btndec" id="start">Start</button>
+            <button onclick="stopClock()" class="btndec" id="stop">Stop</button>
+            <button onclick="resetClock()" class="btndec" id="reset">Reset</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="jscript.js"></script>
+</body>
+</html>
