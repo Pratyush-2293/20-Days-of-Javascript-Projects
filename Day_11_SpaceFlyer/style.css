@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+.game{
+    /* border: 2px solid red; */
+    height: 800px;
+    width: 600px;
+    max-height: 800px;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 90px;
+}
+
+#player{
+    /* border: 2px solid green; */
+    position: relative;
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    top: 400px;
+    left: 200px;
+    transition: 200ms;
+    z-index: 20;
+}
+
+#rock{
+    /* border: 2px solid yellow; */
+    position: relative;
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    top: 0px;
+    left: 0px;
+    animation: slide 1200ms infinite linear;
+}
+
+@keyframes slide {
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 800px;
+    }
+}
+
+#title{
+    font-family: monospace;
+    /* border: 2px solid purple; */
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    text-align: center;
+    margin-top: 10px;
+    color: #FFF8F0;
+}
+
+#left{
+    /* border: 3px solid orange; */
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    z-index: 10;
+}
+
+#right{
+    /* border: 3px solid blue; */
+    height: 100%;
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    z-index: 10;
+}
+
+#playerid{
+    height: 100%;
+    width: 100%;
+}
+
+#rockid{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+body{
+    background-color: #1E152A;
+}
