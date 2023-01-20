@@ -15,7 +15,7 @@ Case 3: The player (deliberately) crashes into the asteroid.
 Expected Output:
 Case 0: The game starts and asteroids spawn randomly in one of the three lanes at a time.
 Case 1: The player's spaceship shifts to the left lane.
-Case 2: The player's spaceshipt shifts rightward and returns to the centre lane.
+Case 2: The player's spaceship shifts rightward and returns to the center lane.
 Case 3: The game stops and a game over alert is displayed, along with the player's achieved scored.
 
 You can play the game by clicking on the link below:
