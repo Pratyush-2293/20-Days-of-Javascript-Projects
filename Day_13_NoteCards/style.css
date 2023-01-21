@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #C1B098;
+    /* font-family: 'Neucha', cursive; */
+}
+
+#create{
+    background-color: #63B0CD;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    font-family: 'Neucha', cursive;
+    font-size: 1.25rem;
+    font-weight: bold;
+    transition: 300ms;
+    left: 37%;
+    top: 40%;
+    position: relative;
+}
+
+#create:hover{
+    color: #63B0CD;
+    background-color: black;
+}
+
+.container1{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+}
+
+.container2{
+    /* border: 2px solid purple; */
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.container3{
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+    height: 30%;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #39393A;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 10px;
+    /* border: 2px solid yellow; */
+}
+
+.input{
+    /* border: 2px solid orange; */
+    height: 80%;
+}
+
+#textbox{
+    width: 100%;
+    height: 100%;
+    background-color: #39393A;
+    color: white;
+    font-family: 'Neucha', cursive;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+#checkbutton{
+    margin-right: 10px;
+    font-weight: bold;
+    width: 35px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #2E933C;
+    transition: 300ms;
+}
+
+#checkbutton:hover{
+    color: white;
+}
+
+#crossbutton{
+    margin-right: 10px;
+    font-weight: bold;
+    width: 35px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #E84855;
+    transition: 300ms;
+}
+
+#crossbutton:hover{
+    color: white;
+}
