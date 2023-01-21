@@ -1,5 +1,5 @@
 To Do List App
-- In this project I have made a wesbite with a to do list app.
+- In this project I have made a website with a to do list app.
 - The user can add events to the list, by typing in the input section, and clicking the yellow note button.
 - Clicking on the items added to the list, checks them off by adding a strike-through to the text.
 - Clicking on the red trash can button clears the list of all events.
