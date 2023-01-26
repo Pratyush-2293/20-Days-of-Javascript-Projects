@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    background-color: #C5D86D;
+}
+
+.module{
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    display: flex;
+    height: 70%;
+    width: 40%;
+    background-color: #3C3C3B;
+    flex-direction: column;
+    box-shadow: 3px 2px 8px 2px rgba(0, 0, 0, 0.6);
+    max-width: 400px;
+}
+
+.screen{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 10%;
+    padding: 20px;
+    background-color: #141414;
+}
+
+.passlist{
+    border: 2px solid green;
+    display: flex;
+    height: 80%;
+}
+
+#passtext{
+    /* border: 2px solid purple; */
+    width: 90%;
+    font-size: 2rem;
+    font-family: monospace;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.btncontainer{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+}
+
+.btns{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #FF6663;
+    transition: 300ms;
+}
+
+#passlist{
+    padding: 30px;
+}
+
+#newbtn:hover{
+    scale: 1.1;
+    color: white;
+}
+
+#savebtn:hover{
+    scale: 1.1;
+    color: white;
+}
