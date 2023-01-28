@@ -1,5 +1,5 @@
 Form Validation Project
-- In this project I have made a sample registration form for the VIT Bhopal Game Development Form with form validation.
+- In this project I have made a sample registration form for the VIT Bhopal Game Development Club with form validation.
 - The form uses both HTML and JavaScript to validate user input before submission.
 - The name input should be more than 3 and less than 4 characters.
 - The registration number must be 10 characters long.
